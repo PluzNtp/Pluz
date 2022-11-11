@@ -1,0 +1,36 @@
+:root{
+    --primary:#e73c7e;
+    --light:#EEEEEE;
+    --dark:#0a0a0a;
+    --gradient:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab,#23a6d5,  #e73c7e, #ee7752);
+}
+body {
+    background-image: url("");
+    background-color: #000000;
+    
+}
+.name{
+    position: relative;
+    text-align: center;
+    margin-top: 325px;
+    color: #ffff;
+    text-transform: uppercase; 
+    width: 100vw;
+    font-size: 50px;
+    padding-bottom: 30px;
+  
+
+}
+.cvbtn{
+
+    color: #000000;
+    margin-left: 46%;
+    font-weight: 600;
+    border-color:var(--gradient);
+    border-width: 4px;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 8px 16px;
+    border-radius: 99px;
+    /* box-shadow: 5px 10px 18px #ffffff; */
+}
