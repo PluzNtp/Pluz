@@ -1,0 +1,40 @@
+.wrapper{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 500px;
+}
+.fa{
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+
+}
+.fa-facebook {
+   
+    color: white;
+}
+.fa-facebook:hover {
+    color: rgb(21, 111, 208);
+}
+
+.fa-github:hover {
+    color: rgb(139, 139, 139);
+}
+.fa-instagram:hover {
+    color: rgb(255, 101, 183);
+}
+
+.fa-youtube:hover {
+    color: rgb(250, 0, 0);
+}
+.iconic{
+    width:"40";
+    height:"40";
+
+}
+.wrappers{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
