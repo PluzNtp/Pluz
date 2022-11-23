@@ -1,32 +1,38 @@
 .wrapper{
     text-align: center;
     font-size: 40px;
-    margin-bottom: 500px;
+    margin-bottom: 10%;
+    width: 30%;
 }
+    
 .fa{
     padding: 20px;
     text-align: center;
     text-decoration: none;
+    font-size: 1000px;
     margin: 5px 10px;
+    transition: 0.6s;
 
 }
 .fa-facebook {
-   
     color: white;
 }
 .fa-facebook:hover {
-    color: rgb(21, 111, 208);
+    animation-name: bounce-4;
+    animation-timing-function: ease;
+    color: rgb(147, 196, 248);
 }
 
 .fa-github:hover {
-    color: rgb(139, 139, 139);
+    animation-timing-function: ease;
+    color: rgb(184, 60, 47);
 }
 .fa-instagram:hover {
     color: rgb(255, 101, 183);
 }
 
 .fa-youtube:hover {
-    color: rgb(250, 0, 0);
+    color: rgb(200, 88, 88);
 }
 .iconic{
     width:"40";
@@ -36,5 +42,12 @@
 .wrappers{
     text-align: center;
     font-size: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 10%;
+}
+
+@media (max-width: 768px) {
+    .wrappers{
+        font-size: 30px;
+    }
+
 }

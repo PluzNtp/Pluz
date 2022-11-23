@@ -1,0 +1,135 @@
+.activity{
+  height: 100%;
+  text-align: center;
+  /* background: url(https://64.media.tumblr.com/3e570496c39c50fcac1184ca5fba6004/tumblr_piwmfy6Auo1rnbw6mo1_1280.gif); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+}
+.activity-head{
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+.contain-grid{
+  width: auto;
+  padding-left: 0px;
+  align-items: center;
+  align-self: center;
+}
+
+
+.grid{
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  /* width: 1000px; */
+  flex: 1;
+}
+.card {
+  position: relative;
+  vertical-align: middle;
+  align-self: center;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+  height: 305px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(34, 35, 36);
+
+  animation: show 0.4s ease;
+}
+.card_1{
+  position: relative;
+  vertical-align: middle;
+  align-self: center;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+  height: 305px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-position: center;
+  transition: 0.8s;
+
+  animation: show 0.4s ease;
+}
+.card__img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 2%;
+  width: 100%;
+  height: 100%;
+
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.card_1:hover .card__img {
+  opacity: 0.3;
+
+}
+
+.card_1:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #e9601c;
+  color: white;
+  font-size: 20px;
+  border-radius: 10%;
+  padding: 16px 32px;
+}
+
+
+
+.title{
+  padding-top: 30%;
+
+}
+/* .card_1:hover{
+  opacity: 50%;
+  background-size: 600px;
+} */
+
+.card:hover{
+  box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 2px 0px,
+  rgba(249, 253, 255, 0.15) 0px 1px 3px 1px;
+  width: 510;
+  height: 320;
+}
+
+/* @keyframes show {
+  0% {
+    opacity: 0;
+    transform: scale(0.4) translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+} */
